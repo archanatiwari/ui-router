@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>UI Router</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div ng-app="uiRouterApp">
+        <!-- filter start -->
+        <div class="jumbotron text-center">
+            <a ui-sref=".list" class="btn btn-primary">View1</a>
+            <a ui-sref=".paragraph" class="btn btn-danger">View2</a>
+            <a ui-sref=".paragraph" class="btn btn-danger">View3</a>
+        </div>
+        <!-- filter end -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="app.config.js"></script>
+</body>
+
+</html>
